@@ -56,6 +56,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+
+		<depeendency>
+			<groupId>org.springframework.boot</groupId>
+			<arifactId>spring-boot-starter-security</artifactId>
+		</depeendency>
     </dependencies>
 
 	<build>
@@ -71,5 +76,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
